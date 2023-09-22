@@ -1,0 +1,26 @@
+<!--  Create a <video> tag that automatically starts playing a sunrise video when the page loads. The video tag
+should have controls to pause, play, and adjust the volume -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Example</title>
+</head>
+
+<body>
+    <h1>Video Example With Autoplay</h1>
+
+    <!-- Video with playback controls -->
+    <video width="640" height="360" controls autoplay loop muted>
+        <!-- Google changed their policy for autoplay videos, it has to be muted -->
+        <!-- Recently many browsers can only autoplay the videos with sound off, so we need to add muted attribute to the video tag too -->
+        <source src="1.mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+
+</html>

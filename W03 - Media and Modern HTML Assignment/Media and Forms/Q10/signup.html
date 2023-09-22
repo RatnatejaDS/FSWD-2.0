@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <h1>Sign Up</h1>
+    <!-- Add your sign-up form here -->
+    <!-- Sign Up Form -->
+    <form action="#" method="post" id="signup-form">
+        <!-- First Name Input -->
+        <div>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required pattern=".{3,}">
+            <span><strong>(atleast 3 characters)</strong><span>
+        </div>
+        <br><br>
+
+        <!-- Last Name Input -->
+        <div>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required pattern=".{3,}">
+            <span><strong>(atleast 3 characters)</strong></span>
+        </div>
+        <br><br>
+
+        <!-- Email Input -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required pattern=".{3,}@.+">
+            <span><strong>(atleast 3 characters before @)</strong></span>
+        </div>
+        <br><br>
+
+        <!-- Password Input -->
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <span><strong>(atleast 6 characters)</strong></span>
+        </div>
+        <br><br>
+
+        <!-- Confirm Password Input with Pattern -->
+        <div>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required pattern="^.{6,}$"
+                title="Password must be at least 6 characters long">
+        </div>
+        <br><br>
+
+        <!-- Age Input -->
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required min="0" max="150">
+        </div>
+        <br><br>
+
+        <!-- Gender Options -->
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+        <br><br>
+
+        <!-- Agree to Terms and Conditions -->
+        <div>
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I agree to the terms and conditions</label>
+        </div>
+        <br><br>
+
+        <!-- Sign Up Button -->
+        <div>
+            <button type="submit">Sign Up</button>
+        </div>
+
+        <br><br>
+    </form>
+    <p>Already have an account? <a href="signin.html">Sign-in Here</a></p>
+</body>
+
+</html>

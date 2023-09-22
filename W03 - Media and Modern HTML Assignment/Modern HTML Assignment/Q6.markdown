@@ -1,0 +1,25 @@
+Q. List any 5 semantic tags in HTML along with their descriptions
+
+Semantic HTML elements provide meaning and structure to web content, making it more accessible and understandable for both humans and machines. Here are five commonly used semantic HTML elements along with their descriptions:
+
+1. **`<header>`**:
+   - Description: The `<header>` element represents a container for introductory content or a set of navigational links at the beginning of a web page or a section. It typically includes headings, logos, and primary navigation menus.
+   - Use Case: The `<header>` element is used to identify the header section of a webpage, making it easier for assistive technologies and search engines to recognize and navigate important content.
+
+2. **`<nav>`**:
+   - Description: The `<nav>` element defines a section of a web page containing navigation links that allow users to navigate to other parts of the website or external resources.
+   - Use Case: Use `<nav>` to wrap menus, lists of links, or other navigation-related content, helping assistive technologies understand and convey the purpose of this section.
+
+3. **`<main>`**:
+   - Description: The `<main>` element signifies the main content area of a web page. There should be only one `<main>` element on a page, and it should not be nested within other structural elements like `<header>` or `<footer>`.
+   - Use Case: `<main>` helps screen readers and search engines identify the primary content of a page, making it easier for users to focus on the core information.
+
+4. **`<article>`**:
+   - Description: The `<article>` element represents a self-contained, independently distributable piece of content, such as a news article, blog post, or forum post. It should make sense on its own when extracted from the context of the page.
+   - Use Case: Use `<article>` to encapsulate individual articles or content blocks, improving the accessibility and structure of long-form content.
+
+5. **`<footer>`**:
+   - Description: The `<footer>` element defines a section at the end of a web page or a specific content section, typically containing information about the author, copyright, contact details, or related links.
+   - Use Case: `<footer>` helps users and search engines identify the concluding section of a page and provides valuable context or supplementary information.
+
+By using these semantic elements appropriately, web developers can create more accessible and well-structured web pages, making it easier for both humans and assistive technologies to understand the content and its relationships.

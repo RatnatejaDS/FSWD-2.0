@@ -1,0 +1,27 @@
+<!-- Create a <audio> tag that automatically starts playing a song when the page loads. The audio tag should
+have controls to pause, play, and adjust the volume. Additionally, the song should be set to loop
+continuously until it is paused by the userK -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Example</title>
+</head>
+
+<body>
+    <h1>Audio Example With Loop and Autoplay</h1>
+
+    <!-- Audio with playback controls -->
+    <!-- NOTE : For Chrome Browse to have autoplay , according to recent policies , we have to use JS -->
+    <!-- For Other Browsers Autoplay is allowed only when muted , if not we have to use JS to autoplay -->
+    <!-- This code only works for firefox only that too in muted, for other use JS for autoplay -->
+    <audio controls autoplay loop muted> 
+        <source src="1.mp3">
+        Your browser does not support the audio tag.
+    </audio>
+</body>
+
+</html>

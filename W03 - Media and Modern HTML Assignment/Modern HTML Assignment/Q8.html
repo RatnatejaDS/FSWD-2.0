@@ -1,0 +1,168 @@
+<!-- Q. Create a simple webpage with semantic HTML which has the header, main, and footer sections. The
+header section must contain links to navigate to different sections of the webpage. The main section
+must contain three subsections about what is HTML. What is Semantic HTML and a list of commonly used
+semantic tags? In the end, the footer section must contain your name -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding HTML</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Navigation Menu -->
+        <nav>
+            <h1>Navigation</h1>
+            <ul>
+                <!-- Navigation Links -->
+                <li><a href="#whatishtml">What is HTML</a></li>
+                <li><a href="#whatissemantic">What is Semantic HTML</a></li>
+                <li><a href="#semantictags">Common Semantic Tags</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Section 1: What is HTML -->
+        <section id="whatishtml">
+            <h1>What is HTML</h1>
+            <p>HTML stands for "HyperText Markup Language." It is the standard markup language used to create and
+                structure content on the World Wide Web. HTML is the backbone of web pages and is responsible for
+                defining the structure and layout of a web document, including text, images, links, forms, and
+                multimedia elements.</p>
+
+            <h2>Key Aspects of HTML</h2>
+            <ol>
+                <li><strong>Structure:</strong> HTML defines the hierarchical structure of a web page, including
+                    headings, paragraphs, lists, and more. Elements are arranged in a tree-like structure, with the
+                    &lt;html&gt; element as the root.</li>
+                <li><strong>Text Formatting:</strong> HTML allows you to format text by specifying headings (e.g.,
+                    &lt;h1&gt; for the main heading), emphasizing text (e.g., &lt;em&gt; for emphasis), and creating
+                    lists (e.g., &lt;ul&gt; for unordered lists or &lt;ol&gt; for ordered lists).</li>
+                <li><strong>Links:</strong> HTML enables the creation of hyperlinks using the &lt;a&gt; element,
+                    allowing users to navigate between web pages and resources.</li>
+                <li><strong>Images and Multimedia:</strong> You can embed images, audio, and video content using
+                    elements like &lt;img&gt;, &lt;audio&gt;, and &lt;video&gt;. These elements enhance the visual and
+                    auditory experience of web pages.</li>
+                <li><strong>Forms:</strong> HTML provides form elements (e.g., &lt;form&gt;, &lt;input&gt;,
+                    &lt;textarea&gt;) for collecting user input, such as text, checkboxes, and radio buttons.</li>
+                <li><strong>Semantic Elements:</strong> HTML5 introduced semantic elements like &lt;header&gt;,
+                    &lt;nav&gt;, &lt;main&gt;, and &lt;footer&gt; that provide meaning and structure to web content,
+                    benefiting accessibility and SEO.</li>
+                <li><strong>Attributes:</strong> Elements can have attributes (e.g., &lt;img src="image.jpg"&gt; for
+                    specifying image sources or &lt;a href="page.html"&gt; for defining hyperlink destinations) that
+                    control their behavior and appearance.</li>
+                <li><strong>Compatibility:</strong> HTML is supported by all modern web browsers and is designed to be
+                    backward-compatible with older versions of the language, ensuring that web content remains
+                    accessible to a wide range of users.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h1>Features Of HTML5</h1>
+            <ol>
+                <li><strong>Semantic Elements:</strong> HTML5 introduced semantic elements like &lt;header&gt;,
+                    &lt;footer&gt;, &lt;nav&gt;, &lt;section&gt;, and &lt;article&gt;. These elements provide a clearer
+                    structure to web documents and help search engines and assistive technologies better understand
+                    content.</li>
+                <li><strong>Multimedia Support:</strong>
+                    <ul>
+                        <li>&lt;audio&gt; and &lt;video&gt; elements for native audio and video playback without
+                            plugins.</li>
+                        <li>&lt;canvas&gt; element for drawing graphics, animations, and games.</li>
+                        <li>&lt;svg&gt; element for scalable vector graphics.</li>
+                    </ul>
+                </li>
+                <li><strong>Improved Forms:</strong>
+                    <ul>
+                        <li>New input types such as email, url, number, and date.</li>
+                        <li>New form elements like &lt;datalist&gt; for autocompletion, &lt;keygen&gt; for key pairs,
+                            and &lt;output&gt; for calculation results.</li>
+                        <li>Built-in form validation and the pattern attribute for custom validation.</li>
+                    </ul>
+                </li>
+                <li><strong>Local Storage and Session Storage:</strong> localStorage and sessionStorage provide
+                    client-side storage for web applications, allowing data to be stored persistently or temporarily.
+                </li>
+                <li><strong>Geolocation:</strong> HTML5 allows websites to request and access the user's geographical
+                    location through the Geolocation API.</li>
+                <li><strong>Web Workers:</strong> Web Workers enable multi-threading in web applications, allowing tasks
+                    to run in the background without affecting the main UI thread's performance.</li>
+                <li><strong>WebSockets:</strong> WebSocket support facilitates real-time, full-duplex communication
+                    between the client and server, enabling interactive web applications.</li>
+                <li><strong>Drag and Drop:</strong> HTML5 introduced the ability to drag and drop elements and files
+                    within a web page.</li>
+                <li><strong>Offline Web Applications:</strong> The Application Cache (AppCache) allows web applications
+                    to work offline by caching resources.</li>
+                <li><strong>Improved Accessibility:</strong> HTML5 introduced accessibility features like the alt
+                    attribute for images, &lt;figure&gt; and &lt;figcaption&gt; for image descriptions, and more ARIA
+                    roles and attributes for better accessibility.</li>
+                <li><strong>Responsive Web Design:</strong> Media queries and new elements like &lt;picture&gt; and
+                    &lt;srcset&gt; support responsive web design, allowing web pages to adapt to different screen sizes
+                    and devices.</li>
+                <li><strong>New APIs:</strong>
+                    <ul>
+                        <li>Web Storage API: Provides access to local and session storage.</li>
+                        <li>History API: Allows manipulation of the browser's history stack.</li>
+                        <li>Canvas API: Enables dynamic rendering and drawing.</li>
+                        <li>Web Audio API: Provides advanced audio processing capabilities.</li>
+                        <li>Full-Screen API: Allows web applications to enter full-screen mode.</li>
+                        <li>Notification API: Provides notifications to users.</li>
+                        <li>WebRTC: Enables real-time communication directly between browsers.</li>
+                    </ul>
+                </li>
+                <li><strong>Security Improvements:</strong>
+                    <ul>
+                        <li>Content Security Policy (CSP): Helps prevent cross-site scripting (XSS) attacks.</li>
+                        <li>Sandboxed iframes: Isolate third-party content in iframes.</li>
+                        <li>Cross-Origin Resource Sharing (CORS): Controls which domains can access resources on a web
+                            page.</li>
+                    </ul>
+                </li>
+                <li><strong>Scalability:</strong> HTML5 was designed to be backward compatible, making it easy for
+                    developers to transition from older versions of HTML while embracing modern web development
+                    practices.</li>
+                <li><strong>Improved Performance:</strong> HTML5 and its associated technologies often lead to improved
+                    website performance due to features like local storage, better forms, and multimedia support.</li>
+                <li><strong>Mobile-Friendly:</strong> HTML5's responsive design features and multimedia capabilities
+                    have contributed to the development of mobile-friendly and cross-platform web applications.</li>
+            </ol>
+        </section>
+
+        <!-- Section 2: What is Semantic HTML -->
+        <section id="whatissemantic">
+            <h1>What is Semantic HTML</h1>
+            <p>Semantic HTML refers to using HTML elements that convey meaning beyond just presentation. These elements
+                provide structure and context to web content, making it more accessible and understandable for both
+                humans and machines.</p>
+        </section>
+
+        <!-- Section 3: Common Semantic Tags -->
+        <section id="semantictags">
+            <h1>Common Semantic Tags</h1>
+            <ul>
+                <!-- List of Semantic Tags -->
+                <li><strong>&lt;header&gt;</strong>: Represents the header section of a webpage.</li>
+                <li><strong>&lt;nav&gt;</strong>: Defines a navigation section with navigation links.</li>
+                <li><strong>&lt;main&gt;</strong>: Indicates the main content area of a webpage.</li>
+                <li><strong>&lt;section&gt;</strong>: Groups related content within a document.</li>
+                <li><strong>&lt;footer&gt;</strong>: Represents the footer section, often containing copyright
+                    information.</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Your Name -->
+        <p>Created by Ratna Teja</p>
+    </footer>
+</body>
+
+</html>

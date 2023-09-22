@@ -1,0 +1,32 @@
+Q. Write a short note on the tab index
+
+The "tabindex" attribute is an HTML attribute used to control the order in which elements on a web page receive keyboard focus when a user navigates using the "Tab" key. It specifies the position of an element in the keyboard navigation order and can be assigned a positive integer value, zero, or a negative value.
+
+Here's how the "tabindex" attribute works:
+
+1. **Positive Values**: Elements with a positive "tabindex" value are placed at the beginning of the keyboard navigation order and are focused on first when a user presses the "Tab" key. Elements with higher positive values come earlier in the order.
+
+   ```html
+   <input type="text" tabindex="1">
+   <input type="text" tabindex="2">
+   <input type="text" tabindex="3">
+   ```
+
+2. **Zero Value (Default)**: Elements without a "tabindex" attribute or with a value of zero are included in the default keyboard navigation order based on their position in the HTML structure. They follow the order in which they appear in the document flow.
+
+   ```html
+   <input type="text">
+   <button>Click Me</button>
+   <a href="#">Link</a>
+   ```
+
+3. **Negative Values**: Elements with a negative "tabindex" value are programmatically focused on using JavaScript but are skipped during normal keyboard navigation. They are not part of the default tab order.
+
+   ```html
+   <button id="custom-button" tabindex="-1">Custom Button</button>
+   ```
+
+It's important to use the "tabindex" attribute judiciously and avoid altering the natural flow of keyboard navigation unless there's a specific accessibility requirement or user interface design reason to do so. Excessive use of "tabindex" can create confusion for users.
+
+The "tabindex" attribute is a valuable tool for enhancing web accessibility by ensuring that keyboard users can navigate a web page in a logical and efficient manner. However, it should be used with care, and web developers should also consider other accessibility practices, such as proper semantic markup, meaningful labels, and keyboard-friendly interactive elements, to create a more inclusive web experience.
+

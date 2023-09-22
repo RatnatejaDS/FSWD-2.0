@@ -1,0 +1,31 @@
+Q. E What is web accessibility? List some of the assistive devices which play a major role in providing accessibility.
+
+Web accessibility refers to the inclusive practice of designing and developing websites and web applications to ensure that people with disabilities can perceive, understand, navigate, and interact with digital content effectively. It aims to remove barriers that may prevent individuals with disabilities from accessing and using online information and services. Web accessibility benefits not only people with disabilities but also a broader audience, including those using various devices and situations, such as mobile users and individuals in noisy environments. Here are some major assistive devices and technologies that play a crucial role in providing web accessibility:
+
+1. **Screen Readers**: Screen readers are software applications that convert digital text into synthesized speech or present it visually on a Braille display. They enable people with visual impairments to access web content. Examples include JAWS, NVDA, and VoiceOver.
+
+2. **Screen Magnifiers**: Screen magnifiers are software or hardware tools that enlarge portions of the screen, making content more readable for individuals with low vision.
+
+3. **Braille Displays**: Braille displays are tactile devices that translate digital text into Braille characters, allowing blind individuals to read web content through touch.
+
+4. **Keyboard Navigation**: Many individuals with mobility impairments rely on keyboard navigation instead of a mouse. Ensuring that all interactive elements can be accessed and used through keyboard commands is essential for web accessibility.
+
+5. **Voice Recognition Software**: Voice recognition software, like Dragon NaturallySpeaking, allows individuals with mobility impairments to control their computers and navigate the web using voice commands.
+
+6. **Closed Captions and Subtitles**: These assist individuals with hearing impairments by providing text-based representations of spoken content in videos. They are also useful in noisy environments.
+
+7. **Alternative Text (Alt Text)**: Alt text is descriptive text added to images on websites. Screen readers use this text to describe images to users with visual impairments.
+
+8. **Aria-Described-By and Aria-Label**: These attributes in HTML (ARIA roles) help developers provide additional information to assistive technologies, improving the accessibility of complex web elements like dynamic content and interactive widgets.
+
+9. **Speech Synthesis Markup Language (SSML)**: SSML is used to control the prosody (intonation, pitch, and speed) of synthesized speech output by screen readers and voice assistants.
+
+10. **Switch Devices**: Switch devices are assistive input devices that individuals with severe physical disabilities can use to interact with computers and websites by pressing switches or buttons.
+
+11. **Cognitive Assistive Technologies**: These include tools and features that assist individuals with cognitive impairments, such as simplified interfaces, consistent navigation, and clear content presentation.
+
+12. **Adaptive Keyboards and Mice**: Adaptive input devices, like specialized keyboards and mice, are designed to accommodate various physical disabilities.
+
+13. **Eye-Tracking Devices**: Eye-tracking technology allows individuals with limited mobility to control computers and browse the web by using eye movements.
+
+Web accessibility is vital for ensuring that digital content and services are available to everyone, regardless of their abilities or disabilities. Designing and developing with accessibility in mind is not only a legal requirement in many places but also a fundamental aspect of creating an inclusive and user-friendly online environment.

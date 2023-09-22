@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+
+<body>
+    <h1>Sign In</h1>
+    <!-- Add your sign-in form here -->
+        <form action="#" method="post" id="signin-form">
+            <!-- Email Input -->
+            <div>
+                <label for="signin-email">Email:</label>
+                <input type="email" id="signin-email" name="signin-email" required pattern=".{3,}@.+">
+                <span><strong>(atleast 3 characters before @)</strong></span>
+            </div>
+            <br><br>
+
+            <!-- Password Input -->
+            <div>
+                <label for="signin-password">Password:</label>
+                <input type="password" id="signin-password" name="signin-password" required  pattern="^.{6,}$" >
+                <span><strong>(atleast 6 characters)</strong></span>
+            </div>
+            <br><br>
+
+            <!-- Sign In Button -->
+            <div>
+                <button type="submit">Sign In</button>
+            </div>
+        </form>
+
+        <p>Don't have an account?<a href="signup.html">Sign-Up Here</a></p>
+</body>
+
+</html>
